@@ -7,4 +7,8 @@ header {
     padding-top: 62px;
     padding-left: 39px;
   }
+
+  @media screen and (min-width: 1440px) {
+    padding-left: 165px;
+  }
 }
