@@ -1,0 +1,158 @@
+// phone
+.second-section {
+  margin-top: 166px;
+}
+
+.second-section__phone {
+  height: 600px;
+
+  background: #191826
+    url("../assets/images/mobile-second-section-background.png") no-repeat top
+    center;
+
+  border-radius: 12px;
+}
+
+.second-section__phone-img {
+  position: relative;
+  top: -98px;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+// card
+.second-section__card {
+  height: 546px;
+
+  background: #fa7453;
+  border-radius: 12px;
+
+  margin-top: -220px;
+
+  padding-top: 1px;
+}
+
+.second-section__card > * {
+  max-width: 302px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second-section__card__h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #fcfaf9;
+
+  margin-top: 47px;
+}
+
+.second-section__card__p {
+  margin-top: 12px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #fcfaf9;
+}
+
+.second-section__card__price-month {
+  margin-top: 36px;
+
+  display: flex;
+  align-items: center;
+}
+
+.second-section__card__price {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+
+  color: #fcfaf9;
+
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.second-section__card__month {
+  display: inline-block;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  letter-spacing: -0.2px;
+
+  color: #fcfaf9;
+}
+
+.second-section__card__btns {
+  margin-top: 32px;
+}
+
+.second-section__card__apple-btn-dwnld {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 296px;
+  height: 61px;
+
+  background: #191826;
+  border-radius: 12px;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+.second-section__card__apple-btn-dwnld img {
+  margin-right: 8px;
+}
+
+.second-section__card__apple-btn-dwnld span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+
+  letter-spacing: -0.18px;
+
+  color: #fcfaf9;
+}
+
+.second-section__card__android-btn-dwnld {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 16px;
+
+  background: #fcfaf9;
+  border-radius: 12px;
+
+  width: 296px;
+  height: 61px;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.second-section__card__android-btn-dwnld img {
+  margin-right: 8px;
+}
+
+.second-section__card__android-btn-dwnld span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+
+  letter-spacing: -0.18px;
+
+  color: #191826;
+}
