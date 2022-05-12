@@ -5,7 +5,9 @@ import "../scss/second-section.scss";
 
 // images/logos
 import mobilePhone from "../assets/images/mobile-phone.png";
+import tabletPhone from "../assets/images/tablet-phone.png";
 import desktopPhone from "../assets/images/desktop-phone.png";
+
 import appleLogo from "../assets/logos/apple.svg";
 import androidLogo from "../assets/logos/android.svg";
 
@@ -14,6 +16,7 @@ export default function SecondSection() {
     <div className="second-section">
       <div className="second-section__phone">
       <img className="second-section__phone-img" src={mobilePhone} alt="" />
+      <img className="second-section__phone-img" src={tabletPhone} alt="" />
       <img className="second-section__phone-img" src={desktopPhone} alt="" />
       </div>
       <div className="second-section__card">
