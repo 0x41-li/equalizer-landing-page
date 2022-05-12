@@ -1,6 +1,17 @@
 // phone
 .second-section {
+  position: relative;
+
   margin-top: 166px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 249px;
+
+    max-width: 696px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .second-section__phone {
@@ -11,6 +22,7 @@
     center;
 
   border-radius: 12px;
+
 }
 
 .second-section__phone-img {
@@ -19,10 +31,34 @@
 
   left: 50%;
   transform: translateX(-50%);
+
+  @media screen and (min-width: 768px) {
+    transform: unset;
+
+    top: -138px;
+    left: 64px;
+  }
 }
+
+// mobile - phone
+.second-section__phone-img:nth-child(1) {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+// desktop phone
+.second-section__phone-img:nth-child(2) {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
 
 // card
 .second-section__card {
+  position: relative;
   height: 546px;
 
   background: #fa7453;
@@ -31,6 +67,14 @@
   margin-top: -220px;
 
   padding-top: 1px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: -450px;
+    max-width: 399px;
+
+    margin-right: 97px;
+    margin-left: auto;
+  }
 }
 
 .second-section__card > * {
@@ -108,7 +152,6 @@
   border: none;
 
   cursor: pointer;
-
 }
 
 .second-section__card__apple-btn-dwnld img {
