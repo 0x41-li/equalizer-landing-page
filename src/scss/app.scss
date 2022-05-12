@@ -10,19 +10,19 @@ body {
   font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
 
   background: #fcfaf9 url("../assets/images/mobile-body-background.png")
-    no-repeat top right;
+    no-repeat top right / contain;
 
   @media screen and (min-width: 768px) {
     background: url("../assets/images/tablet-body-background-2.png") no-repeat
         top right,
       #fcfaf9 url("../assets/images/tablet-body-background.png") no-repeat top
-        right / cover;
+        right / contain;
   }
 
   @media screen and (min-width: 1200px) {
     background: url("../assets/images/desktop-body-background-2.png") no-repeat
         top right,
       #fcfaf9 url("../assets/images/desktop-body-background.png") no-repeat top
-        right / cover;
+        right / contain;
   }
 }
