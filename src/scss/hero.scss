@@ -9,6 +9,12 @@
     margin-top: 95px;
     margin-right: 0px;
   }
+
+  @media screen and (min-width: 1200px) {
+    max-width: unset;
+    margin-top: 127px;
+    margin-left: 165px;
+  }
 }
 
 h1 {
@@ -26,6 +32,15 @@ h1 {
 
     letter-spacing: -0.727273px;
   }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 88px;
+    line-height: 88px;
+
+    letter-spacing: -1px;
+
+    max-width: 1015px;
+  }
 }
 
 .hero__p {
@@ -42,5 +57,14 @@ h1 {
 
     font-size: 18px;
     line-height: 28px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 34px;
+
+    max-width: 825px;
+
+    margin-top: 40px;
   }
 }
