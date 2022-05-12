@@ -23,6 +23,8 @@ body {
     background: url("../assets/images/desktop-body-background-2.png") no-repeat
         top right,
       #fcfaf9 url("../assets/images/desktop-body-background.png") no-repeat top
-        right / contain;
+        right / cover;
   }
+
+  
 }
