@@ -15,6 +15,8 @@
     max-width: 696px;
   }
 
+
+
   @media screen and (min-width: 1440px) {
     margin-top: 312px;
 
@@ -100,7 +102,7 @@
     margin-top: -450px;
     max-width: 399px;
 
-    margin-right: 97px;
+    margin-right: 58px;
     margin-left: auto;
   }
 
@@ -166,11 +168,6 @@
 
   display: inline-block;
   margin-right: 16px;
-
-  @media screen and (min-width: 1440px) {
-    font-size: 65px;
-    line-height: 52px;
-  }
 }
 
 .second-section__card__month {
@@ -183,7 +180,6 @@
   letter-spacing: -0.2px;
 
   color: #fcfaf9;
-
 }
 
 .second-section__card__btns {
