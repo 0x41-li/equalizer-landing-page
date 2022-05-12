@@ -4,13 +4,16 @@
 
   margin-top: 166px;
 
+  max-width: 375px;
+
+  margin-left: auto;
+  margin-right: auto;
+
   @media screen and (min-width: 768px) {
     margin-top: 249px;
 
     max-width: 696px;
 
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
