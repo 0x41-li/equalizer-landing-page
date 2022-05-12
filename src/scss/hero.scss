@@ -13,6 +13,11 @@
     margin-right: 0px;
   }
 
+  @media screen and (min-width: 992px) {
+    // For device sizes between 992px and 1200px
+    max-width: 60%;
+  }
+
   @media screen and (min-width: 1200px) {
     max-width: unset;
     margin-top: 127px;
