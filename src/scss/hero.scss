@@ -3,6 +3,9 @@
   margin-left: 24px;
   margin-right: 24px;
 
+  // For device sizes between 375px and 768px
+  max-width: 420px;
+
   @media screen and (min-width: 768px) {
     max-width: 520px;
     margin-left: 39px;
