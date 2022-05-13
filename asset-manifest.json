@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/equalizer-landing-page/static/css/main.a0519f01.css",
-    "main.js": "/equalizer-landing-page/static/js/main.1eb09125.js",
+    "main.css": "/equalizer-landing-page/static/css/main.fb9264f9.css",
+    "main.js": "/equalizer-landing-page/static/js/main.52b0b104.js",
     "static/media/desktop-body-background.png": "/equalizer-landing-page/static/media/desktop-body-background.5b8c2edd5ff6022be38a.png",
     "static/media/tablet-body-background.png": "/equalizer-landing-page/static/media/tablet-body-background.a032709170500f2035f5.png",
     "static/media/mobile-body-background.png": "/equalizer-landing-page/static/media/mobile-body-background.d0224012991e9b0ab9dc.png",
@@ -17,11 +17,11 @@
     "static/media/twiiter-icon.svg": "/equalizer-landing-page/static/media/twiiter-icon.04a720016613cea1d7fe2aba971a270a.svg",
     "index.html": "/equalizer-landing-page/index.html",
     "static/media/fb-icon.svg": "/equalizer-landing-page/static/media/fb-icon.5365851052ba3afee8a504c5824a1259.svg",
-    "main.a0519f01.css.map": "/equalizer-landing-page/static/css/main.a0519f01.css.map",
-    "main.1eb09125.js.map": "/equalizer-landing-page/static/js/main.1eb09125.js.map"
+    "main.fb9264f9.css.map": "/equalizer-landing-page/static/css/main.fb9264f9.css.map",
+    "main.52b0b104.js.map": "/equalizer-landing-page/static/js/main.52b0b104.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0519f01.css",
-    "static/js/main.1eb09125.js"
+    "static/css/main.fb9264f9.css",
+    "static/js/main.52b0b104.js"
   ]
 }
