@@ -18,14 +18,14 @@ export default function Footer() {
       <div className="footer__text">
         <p className="footer__p">
           All rights reserved © Equalizer 2021 Have any problems? Contact us via
-          social media or email us at
-          <span className="footer__email">equalizer@example.com</span>
+          social media or email us at 
+          <span className="footer__email"> equalizer@example.com</span>
         </p>
       </div>
       <div className="footer__social-media">
-      <img src={fbIcon} alt="" className="fb__img" />
-      <img src={instaIcon} alt="" className="fb__img" />
-      <img src={twitterIcon} alt="" className="fb__img" />
+        <img src={fbIcon} alt="" className="fb__img" />
+        <img src={instaIcon} alt="" className="fb__img" />
+        <img src={twitterIcon} alt="" className="fb__img" />
       </div>
     </footer>
   );
