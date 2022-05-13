@@ -1,0 +1,32 @@
+footer {
+  margin-top: 64px;
+  padding: 0 24px;
+}
+
+.footer__text {
+  margin-top: 32px;
+}
+
+.footer__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #191826;
+}
+
+.footer__email {
+  display: block;
+  font-weight: 700;
+}
+
+// social media icons
+
+.footer__social-media {
+  margin-top: 64px;
+
+  display: flex;
+  gap: 20px;
+
+  padding-bottom: 80px;
+}
